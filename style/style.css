@@ -78,3 +78,53 @@
     margin-top: 380px;
     font-size: 24px;
 }
+
+/* speaker  */
+
+.speaker{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.speaker h1{
+    margin-bottom: 56px;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.speaker-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.speaker-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.card-text{
+    padding: 24px;
+}
+
+.speaker-card img{
+    margin-bottom: 24px;
+}
+
+.speaker-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.speaker-card h6{
+    font-size: 12px;
+    color: #2563EB;
+    margin-bottom: 8px;
+}
+
+.speaker-card p {
+    font-size: 14;
+    color: #575757;
+}
