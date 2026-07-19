@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+}
+
+.primary-btn{
+    background-color:#1d4ed8FF;
+    color: white;
+    font-size: 16px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* navbar style */
+
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav-links ul{
+    display: flex;
+    gap: 28px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #575757;
+}
+
+.nav-links li{
+    list-style: none;
+}
