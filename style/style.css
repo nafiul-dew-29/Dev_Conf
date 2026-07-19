@@ -25,6 +25,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .nav-links ul{
@@ -40,4 +41,40 @@
 
 .nav-links li{
     list-style: none;
+}
+
+/* banner style */
+
+.banner-parent{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/banner.jpg");
+    width: 100%;
+    height: 880px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.banner-text{
+    text-align: center;
+    color: white;
+    padding: 140px 260px;
+    
+}
+
+.banner-text h1{
+    margin-bottom: 20px;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.banner-text p{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.banner-btn{
+    margin-top: 380px;
+    font-size: 24px;
 }
