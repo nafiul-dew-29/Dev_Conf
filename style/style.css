@@ -136,6 +136,29 @@
     text-align: center;
 }
 
+#card-pro{
+    background-color: #0D1B2A;
+    color: white;
+}
+
+#card-pro p{
+    color: #2563EB;
+}
+
+#card-pro button {
+    background-color: #2563EB;
+    color: white;
+}
+
+#card-team{
+    background-color: #E5E7EB;
+}
+
+#card-team button{
+    border: 1px solid black;
+    background-color: #E5E7EB;
+    color: #575757;
+}
 .prize-text h2{
     font-size: 48px;
     font-weight: bold;
