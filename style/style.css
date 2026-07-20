@@ -128,3 +128,61 @@
     font-size: 14;
     color: #575757;
 }
+
+/* date & location */
+
+.location-date-parent{
+    margin-top: 130px;
+}
+
+.location-text{
+    text-align: center;
+}
+
+.location-text h3{
+    color: #2563EB;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.location-text h1{
+    font-size: 80px;
+    margin-bottom: 8px;
+}
+
+.location-text p{
+    font-size: 22px;
+    color: #575757;
+    margin-bottom: 25px;
+}
+
+.date-location-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+}
+
+.location-left,.location-right{
+    border: 1px solid #cdd7ed;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #E5E7EB;
+    height: 100%;
+    
+}
+
+.location-left img, .location-right img{
+    width: 30%;
+    
+}
+
+.location-left h3, .location-right h3{
+    color: #2563EB;
+    margin-bottom: 8px;
+}
+
+.location-left h4, .location-right h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
