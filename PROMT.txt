@@ -1,0 +1,1 @@
+iam developing a website for dev conference website, i have add navigation bar, banner section, speaker section and footer section what else i should add
